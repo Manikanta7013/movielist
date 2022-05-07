@@ -15,7 +15,7 @@ function App() {
     <form  onSubmit={submitHandler}>
       
       <input type="text" className="container" placeholder='Search Movies' size="40" value={search} onChange={(e)=>setSearch(e.target.value)}/>&nbsp;
-      <input type="submit" className='container' size="33" value="search"/>
+      <input type="submit" className='container'  value="search"/>
      
     </form>
     <div className="row">
